@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1200px){
+	.navigation{
+		margin-left:0;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+
+	}
+	ul{
+		margin-left:0;
+		padding-left:0;
+
+	}
+	.navigation__list li{
+		list-style:none;
+		row-gap:10px;
+	}
+
+	.navigation__logo{
+	 @include relative-converter(font-size, rem, $x-large, 16);
+	}
+
+
+}
