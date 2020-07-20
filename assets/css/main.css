@@ -259,6 +259,12 @@ p {
     grid-column: span 1;
   }
 }
+@media only screen and (max-width: 992px) {
+  .main__image {
+    width: 18em;
+    height: 11em;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .main {
     padding-left: 30px;
@@ -271,6 +277,40 @@ p {
   .main__image {
     width: 17rem;
   }
+}
+@media only screen and (min-width: 1200px) {
+  .article__list li {
+    list-style: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  article {
+    display: none;
+  }
+}
+.section {
+  background-color: #E3E1DB;
+  padding: 1em;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.section__button {
+  background-color: #FFB454;
+  border: 0px #FFB454;
+  color: #fff;
+  font-weight: 600;
+  padding: 3px;
+}
+.section__button:hover {
+  background-color: #FF6602;
+}
+
+.section__input {
+  border: 0px;
 }
 
 /*# sourceMappingURL=main.css.map */
