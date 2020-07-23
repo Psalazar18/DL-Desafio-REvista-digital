@@ -2,6 +2,11 @@
 	border-radius: 12px;
 	height: 17px;
 }
+@media only screen and (max-width: 768px){
+	.navigation__input{
+	width: 92px;	
+	}
+}
 .section__input{
 	border:0px;
 }
