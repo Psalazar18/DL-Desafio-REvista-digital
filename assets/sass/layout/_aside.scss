@@ -1,7 +1,10 @@
 @media only screen and (min-width: 1200px){
 	.aside{
-		margin-left: 1.8rem;
-		//grid-row-start: 1;
+		grid-column-start: 10;
+		grid-column-end: 12;
+		grid-row-start:1;
+		// margin-left: 1.8rem;
+
 	}
 	.aside__tags-list li{
 		list-style:none;
@@ -33,12 +36,12 @@
 		@include relative-converter(font-size, rem, $medium, 16);
 	}
 	.aside__highlights-items-image{
-		// width:100%;
+		width:100%;
 	}
-}
 
 @media only screen and (max-width: 768px){
 	 .aside{
 	 	display:none;
 	 }
+}
 }
